@@ -1,2 +1,2 @@
 maioridade :: Int -> Bool
-maioridade idade = idade >= 18 
+maioridade idade = idade >= 18
