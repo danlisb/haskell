@@ -4,8 +4,6 @@ Este projeto implementa uma linguagem imperativa simples com semântica big-step
 
 ---
 
-## ✅ Como executar os exemplos
-
 Abra o terminal e digite:
 
 ```bash
