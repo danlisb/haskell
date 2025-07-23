@@ -41,6 +41,17 @@ O código-fonte está organizado em um único arquivo contendo:
 ```bash
 ghci
 :l trab2.hs
+
+-- 📌 Expressão Aritmética (progExp1 com exSigma):
+smallStepE (progExp1, exSigma) -- repita até obter (Num n, ...)
+
+-- 📌 Expressão Booleana (teste2 com exSigma2):
+smallStepB (teste2, exSigma2) -- repita até obter (TRUE) ou (FALSE)
+
+-- 📌 Comando Imperativo com Exceção (progTry1 com exSigma):
+smallStepC (progTry1, exSigma) -- repita até obter (Skip, novaMemória)
+
+-- Interpretadores Aritméticos, Booleanos e Tratamentos de Exceções
 interpretadorE (progExp1, exSigma)
 interpretadorB (teste2, exSigma2)
 interpretadorC (progTry1, exSigma)
